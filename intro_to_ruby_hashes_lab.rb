@@ -12,6 +12,5 @@ end
 end
 (update_counting_hash({},'hello')) .to eq({'hello' => 1
 end
-
-
+(update_counting_hash){count: 5},:count)) .to eq({count: 6})
 end
