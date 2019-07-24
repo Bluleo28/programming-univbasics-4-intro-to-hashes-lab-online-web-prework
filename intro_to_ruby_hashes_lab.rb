@@ -5,10 +5,8 @@ end
 (pioneer) .to be_a(Hash)
 end
 (id_generator) .to be_a Hash
-  
 end
- 
-(my_hash_creator(key, value pair inside)
+(my_hash_creator(:name, 'Grace Hopper')) .to be_a(Hash)
 
 end
 
