@@ -10,7 +10,8 @@ end
 end
 (read_from_hash({name: 'Steve'}, :name )) .to eq('Steve')
 end
-(update_counting_hash(hash, key)
+(update_counting_hash({},'hello')) .to eq({'hello' => 1
+end
 
 
 end
