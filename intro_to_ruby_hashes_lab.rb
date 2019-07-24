@@ -1,6 +1,5 @@
 (new_hash) .to eq({})
 end
-
 (my_hash) .to be_a(Hash)
   
 end
