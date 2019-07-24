@@ -3,9 +3,7 @@ end
 (my_hash) .to be_a(Hash)
 end
 (pioneer) .to be_a(Hash)
-  
 end
-
 (id_generator) .to be_a Hash
   
 end
