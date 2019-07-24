@@ -5,12 +5,12 @@ end
   
 end
 
-def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+(pioneer) .to be_a(Hash)
+  
 end
 
-def id_generator
-  # return a hash with a key :id assigned to positive integer
+(id_generator) .to be_a Hash
+  
 end
 
 def my_hash_creator(key, value)
