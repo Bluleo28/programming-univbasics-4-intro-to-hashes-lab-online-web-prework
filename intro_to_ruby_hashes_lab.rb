@@ -12,9 +12,9 @@ end
 (id_generator) .to be_a Hash
   
 end
+ 
+(my_hash_creator(key, value)
 
-def my_hash_creator(key, value)
-  # return a hash that includes the key and value parameters passed into this method
 end
 
 def read_from_hash(hash, key)
